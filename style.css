@@ -1,0 +1,62 @@
+body {
+    background: url(drumkit.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.btns {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+}
+
+h3 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+button {
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(186, 186, 186);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px black;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#btn1 {
+    background-color: rgb(93, 244, 156);
+}
+
+#btn2 {
+    background-color: rgb(221, 215, 249);
+}
+
+#btn3 {
+    background-color: rgb(246, 145, 177);
+}
+
+#btn4 {
+    background-color: rgb(238, 162, 162);
+}
+
+#btn5 {
+    background-color: rgb(177, 255, 164);
+}
